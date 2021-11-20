@@ -1,11 +1,11 @@
 {
   "name": "get-viewport-sizes",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Get correct viewport size and use it in CSS",
   "main": "dist/index.js",
   "scripts": {
-    "prepublish": "babel src --out-dir dist",
-    "build": "babel src --out-dist dist",
+    "prepublish": "npm run build",
+    "build": "babel src --out-dir dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Dave Teu",
@@ -16,6 +16,8 @@
     "babel-preset-es2015": "^6.24.1"
   },
   "babel": {
-    "presets": ["es2015"]
+    "presets": [
+      "es2015"
+    ]
   }
 }
