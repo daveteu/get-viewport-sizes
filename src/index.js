@@ -16,7 +16,7 @@ const getInnerHeight = () => {
 	window.addEventListener("resize", debounce(getHeight, 200))
 	window.addEventListener("orientationchange", debounce(getHeight, 200))
 
-	getWidth()
+	getHeight()
 }
 
 const getInnerWidth = () => {
